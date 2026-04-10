@@ -27,7 +27,7 @@
 
 <div align="center">
 
-## 📊 GitHub Analytics
+## 📊 GitHub Analytics.
 </div>
 
 <p align="center">
