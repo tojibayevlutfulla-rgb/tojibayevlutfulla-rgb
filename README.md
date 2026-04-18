@@ -37,4 +37,4 @@
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=tojibayevlutfulla-rgb&theme=neon&hide_border=true" width="100%" />
 </p>
-aloqa  @tojibayevlutfulla@gmail.com
+
