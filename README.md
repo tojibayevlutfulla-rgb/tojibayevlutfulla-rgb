@@ -1,5 +1,5 @@
 <div align="center">
- type=soft&color=auto&height=200&section=header&text=Ulug'bekov%20Aslbek&fontSize=70&animation=fadeIn" width="100%" />
+
 </div>
 
 <div align="center">
