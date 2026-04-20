@@ -41,26 +41,27 @@
 
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Snake Game</title>
-  <style>
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      background: #111;
-      color: white;
-      font-family: Arial;
-    }
-    canvas {
-      background: black;
-      border: 2px solid #0f0;
-    }
-  </style>
+<meta charset="UTF-8">
+<title>Snake Game</title>
+<style>
+  body {
+    margin: 0;
+    background: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  canvas {
+    background: #000;
+    border: 3px solid lime;
+  }
+</style>
 </head>
 <body>
 
@@ -70,69 +71,86 @@
 const canvas = document.getElementById("game");
 const ctx = canvas.getContext("2d");
 
-const box = 20;
-let snake = [{x: 200, y: 200}];
-let direction = "RIGHT";
+const size = 20;
+const tileCount = canvas.width / size;
+
+let snake = [{x: 10, y: 10}];
+let velocityX = 1;
+let velocityY = 0;
+
 let food = {
-  x: Math.floor(Math.random()*20)*box,
-  y: Math.floor(Math.random()*20)*box
+  x: Math.floor(Math.random() * tileCount),
+  y: Math.floor(Math.random() * tileCount)
 };
 
-document.addEventListener("keydown", changeDirection);
+document.addEventListener("keydown", (e) => {
+  if (e.key === "ArrowUp" && velocityY === 0) {
+    velocityX = 0; velocityY = -1;
+  }
+  if (e.key === "ArrowDown" && velocityY === 0) {
+    velocityX = 0; velocityY = 1;
+  }
+  if (e.key === "ArrowLeft" && velocityX === 0) {
+    velocityX = -1; velocityY = 0;
+  }
+  if (e.key === "ArrowRight" && velocityX === 0) {
+    velocityX = 1; velocityY = 0;
+  }
+});
 
-function changeDirection(e) {
-  if (e.key === "ArrowLeft" && direction !== "RIGHT") direction = "LEFT";
-  if (e.key === "ArrowUp" && direction !== "DOWN") direction = "UP";
-  if (e.key === "ArrowRight" && direction !== "LEFT") direction = "RIGHT";
-  if (e.key === "ArrowDown" && direction !== "UP") direction = "DOWN";
+function gameLoop() {
+  update();
+  draw();
 }
 
-function draw() {
-  ctx.fillStyle = "black";
-  ctx.fillRect(0, 0, 400, 400);
+function update() {
+  const head = {
+    x: snake[0].x + velocityX,
+    y: snake[0].y + velocityY
+  };
 
-  // snake
-  ctx.fillStyle = "lime";
-  snake.forEach(part => ctx.fillRect(part.x, part.y, box, box));
+  // devorga urilish
+  if (
+    head.x < 0 || head.y < 0 ||
+    head.x >= tileCount || head.y >= tileCount ||
+    snake.some(s => s.x === head.x && s.y === head.y)
+  ) {
+    alert("Game Over");
+    snake = [{x: 10, y: 10}];
+    velocityX = 1;
+    velocityY = 0;
+    return;
+  }
 
-  // food
-  ctx.fillStyle = "red";
-  ctx.fillRect(food.x, food.y, box, box);
+  snake.unshift(head);
 
-  let headX = snake[0].x;
-  let headY = snake[0].y;
-
-  if (direction === "LEFT") headX -= box;
-  if (direction === "UP") headY -= box;
-  if (direction === "RIGHT") headX += box;
-  if (direction === "DOWN") headY += box;
-
-  // eat food
-  if (headX === food.x && headY === food.y) {
+  // ovqat yeyish
+  if (head.x === food.x && head.y === food.y) {
     food = {
-      x: Math.floor(Math.random()*20)*box,
-      y: Math.floor(Math.random()*20)*box
+      x: Math.floor(Math.random() * tileCount),
+      y: Math.floor(Math.random() * tileCount)
     };
   } else {
     snake.pop();
   }
-
-  const newHead = {x: headX, y: headY};
-
-  // game over
-  if (
-    headX < 0 || headY < 0 || 
-    headX >= 400 || headY >= 400 ||
-    snake.some(p => p.x === headX && p.y === headY)
-  ) {
-    clearInterval(game);
-    alert("Game Over!");
-  }
-
-  snake.unshift(newHead);
 }
 
-const game = setInterval(draw, 100);
+function draw() {
+  ctx.fillStyle = "black";
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+  // snake
+  ctx.fillStyle = "lime";
+  snake.forEach(s => {
+    ctx.fillRect(s.x * size, s.y * size, size - 2, size - 2);
+  });
+
+  // food
+  ctx.fillStyle = "red";
+  ctx.fillRect(food.x * size, food.y * size, size - 2, size - 2);
+}
+
+setInterval(gameLoop, 120);
 </script>
 
 </body>
