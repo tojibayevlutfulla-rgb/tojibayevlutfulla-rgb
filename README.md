@@ -92,24 +92,22 @@
 
 <h2 align="center"> Connect with me:</h2>
 
-
 <p align="center">
-  <a href="https://mail.google.com/mail/u/0/#inboxs">
+  <a href="mailto:tojibayevlutfulla@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
-  &nbsp;&nbsp;&nbsp; <!-- O'rtada bo'sh joy -->
-  <a href="https://t.me/Aslbek∞Ulug'bekov">
+  &nbsp;&nbsp;&nbsp;
+
+  <a href="https://t.me/ulugbekovvv_3">
     <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
   </a>
   &nbsp;&nbsp;&nbsp;
-  <a href="https://www.instagram.com/ixa_bro0/">
+
+  <a href="https://www.instagram.com/_u1ugbekovvvx71_/">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
   &nbsp;&nbsp;&nbsp;
-  <a href="">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a> 
-  &nbsp;&nbsp;&nbsp;
+
   <a href="https://fullportf.netlify.app/">
     <img src="https://img.shields.io/badge/Website-3498DB?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website" />
   </a>
