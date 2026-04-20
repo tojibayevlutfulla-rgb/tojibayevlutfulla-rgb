@@ -4,20 +4,19 @@
                                                                                                                                                                                          
 
 <div align="center">                                                            
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=26&duration=2000&pause=1000&color=00FF7F&center=true&vCenter=true&width=500&lines=Salom+men+
-            Ulug'bekov+Aslbek;IT+Sohasiga+Qizqaman;Maqsadim+Web+Dasturchi+bolish" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=26&duration=2000&pause=1000&color=00FF7F&center=true&vCenter=true&width=500&lines=Salom+men+Baxtiyorov+Ixtiyorbek;IT+Sohasiga+Qizqaman;Maqsadim+Web+Dasturchi+bolish" alt="Typing SVG"/>
 </div>
 
 
 <div align="center">
-  <img src="https://img.shields.io/github/stars/tojibayevlutfulla-rgb/tojibayevlutfulla-rgb?label=STARS&color=gold&style=flat-square" />
+  <img src="https://img.shields.io/github/stars/Ixtiyorbek19/Ixtiyorbek19?label=STARS&color=gold&style=flat-square" />
 </div>
 
 
 <!-- Visitors and Friends -->              
 <p align="center">
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://img.shields.io/github/followers/tojibayevlutfulla-rgb?label=FRIENDS&color=yellow&style=flat-square" alt="Friends" /> 
+  <img src="https://img.shields.io/github/followers/Ixtiyorbek19?label=FRIENDS&color=yellow&style=flat-square" alt="Friends" /> 
 </p>
 
 
@@ -113,14 +112,3 @@
     <img src="https://img.shields.io/badge/Website-3498DB?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website" />
   </a>
 </p>
-
-
-
-
-
-
-
-
-
-
-
