@@ -38,3 +38,111 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=tojibayevlutfulla-rgb&theme=neon&hide_border=true" width="100%" />
 </p>
 
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Snake Game</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #111;
+      color: white;
+      font-family: Arial;
+    }
+    canvas {
+      background: black;
+      border: 2px solid #0f0;
+    }
+  </style>
+</head>
+<body>
+
+<canvas id="game" width="400" height="400"></canvas>
+
+<script>
+const canvas = document.getElementById("game");
+const ctx = canvas.getContext("2d");
+
+const box = 20;
+let snake = [{x: 200, y: 200}];
+let direction = "RIGHT";
+let food = {
+  x: Math.floor(Math.random()*20)*box,
+  y: Math.floor(Math.random()*20)*box
+};
+
+document.addEventListener("keydown", changeDirection);
+
+function changeDirection(e) {
+  if (e.key === "ArrowLeft" && direction !== "RIGHT") direction = "LEFT";
+  if (e.key === "ArrowUp" && direction !== "DOWN") direction = "UP";
+  if (e.key === "ArrowRight" && direction !== "LEFT") direction = "RIGHT";
+  if (e.key === "ArrowDown" && direction !== "UP") direction = "DOWN";
+}
+
+function draw() {
+  ctx.fillStyle = "black";
+  ctx.fillRect(0, 0, 400, 400);
+
+  // snake
+  ctx.fillStyle = "lime";
+  snake.forEach(part => ctx.fillRect(part.x, part.y, box, box));
+
+  // food
+  ctx.fillStyle = "red";
+  ctx.fillRect(food.x, food.y, box, box);
+
+  let headX = snake[0].x;
+  let headY = snake[0].y;
+
+  if (direction === "LEFT") headX -= box;
+  if (direction === "UP") headY -= box;
+  if (direction === "RIGHT") headX += box;
+  if (direction === "DOWN") headY += box;
+
+  // eat food
+  if (headX === food.x && headY === food.y) {
+    food = {
+      x: Math.floor(Math.random()*20)*box,
+      y: Math.floor(Math.random()*20)*box
+    };
+  } else {
+    snake.pop();
+  }
+
+  const newHead = {x: headX, y: headY};
+
+  // game over
+  if (
+    headX < 0 || headY < 0 || 
+    headX >= 400 || headY >= 400 ||
+    snake.some(p => p.x === headX && p.y === headY)
+  ) {
+    clearInterval(game);
+    alert("Game Over!");
+  }
+
+  snake.unshift(newHead);
+}
+
+const game = setInterval(draw, 100);
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
