@@ -7,6 +7,12 @@
 </div>
 
 <div align="center">
+  <a href="https://github.com/tojibayevlutfulla-rgb?tab=followers">
+    <img src="https://img.shields.io/github/followers/tojibayevlutfulla-rgb?label=FOLLOW&style=for-the-badge&color=2ea44f&logo=github&logoColor=white" alt="Follow" />
+  </a>
+</div>
+
+<div align="center">
   <img src="https://img.shields.io/github/stars/tojibayevlutfulla-rgb/tojibayevlutfulla-rgb?label=STARS&color=gold&style=flat-square" />
   <img src="https://img.shields.io/github/followers/tojibayevlutfulla-rgb?label=FOLLOWERS&color=yellow&style=flat-square" alt="Followers" />
   <img src="https://komarev.com/ghpvc/?username=tojibayevlutfulla-rgb&label=PROFILE%20VIEWS&color=0e75b6&style=flat" alt="Views" />
@@ -60,5 +66,5 @@
 </p>
 
 <div align="center">
- 
+  <img src="https://capsule-render.vercel.app/render?type=waving&color=auto&height=100&section=footer" width="100%" />
 </div>
