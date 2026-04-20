@@ -98,7 +98,7 @@
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
   &nbsp;&nbsp;&nbsp; <!-- O'rtada bo'sh joy -->
-  <a href="https://t.me/Ixtiyorbek∞Baxtiyorov">
+  <a href="https://t.me/Aslbek∞Ulug'bekov">
     <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
   </a>
   &nbsp;&nbsp;&nbsp;
@@ -106,7 +106,7 @@
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
   &nbsp;&nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/zuhriddin-qadamboyev-b20389391/">
+  <a href="">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a> 
   &nbsp;&nbsp;&nbsp;
