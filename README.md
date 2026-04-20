@@ -7,14 +7,9 @@
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=tojibayevlutfulla-rgb&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" height="180" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tojibayevlutfulla-rgb&layout=compact&theme=tokyonight&hide_border=true" height="180" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tojibayevlutfulla-rgb&theme=tokyonight" width="100%" />
+  <img src="https://img.shields.io/github/stars/tojibayevlutfulla-rgb/tojibayevlutfulla-rgb?label=STARS&color=gold&style=flat-square" />
+  <img src="https://img.shields.io/github/followers/tojibayevlutfulla-rgb?label=FOLLOWERS&color=yellow&style=flat-square" alt="Followers" />
+  <img src="https://komarev.com/ghpvc/?username=tojibayevlutfulla-rgb&label=PROFILE%20VIEWS&color=0e75b6&style=flat" alt="Views" />
 </div>
 
 <br/>
@@ -23,8 +18,18 @@
 
 <h2 align="center">🐍 Snake Contribution</h2>
 <div align="center">
-  <img src="https://raw.githubusercontent.com/tojibayevlutfulla-rgb/tojibayevlutfulla-rgb/output/github-contribution-grid-snake.svg" alt="snake" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tojibayevlutfulla-rgb&theme=react-dark&bg_color=000000&color=ffffff&line=00FF7F&point=ffffff&hide_border=true&area=true" width="100%" />
 </div>
+
+<h2 align="center">📊 GitHub Stats</h2>
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=tojibayevlutfulla-rgb&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" height="180" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tojibayevlutfulla-rgb&layout=compact&theme=tokyonight&hide_border=true" height="180" />
+</div>
+
+<br/>
+
+<img src="https://github.com/user-attachments/assets/2127c7c0-3cbb-41f4-849b-18bed46529ca" style="width: 100%;" />
 
 <h2 align="center">🚀 Skills & Tech Stack</h2>
 <p align="center">
