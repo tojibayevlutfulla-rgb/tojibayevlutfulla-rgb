@@ -18,7 +18,7 @@
 <!-- Visitors and Friends -->              
 <p align="center">
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://img.shields.io/github/followers/Ixtiyorbek19?label=FRIENDS&color=yellow&style=flat-square" alt="Friends" /> 
+  <img src="https://img.shields.io/github/followers/tojibayevlutfulla-rgb?label=FRIENDS&color=yellow&style=flat-square" alt="Friends" /> 
 </p>
 
 
@@ -56,7 +56,7 @@
 <h2 align="center">github stats</h2>
 <div align="center">
   <a href="https://git.io/streak-stats">
-    <img src="https://streak-stats.demolab.com?user=Ixtiyorbek19&theme=dark&hide_border=true&exclude_days=Tue" alt="GitHub Streak" />
+    <img src="https://streak-stats.demolab.com?user=tojibayevlutfulla-rgb&theme=dark&hide_border=true&exclude_days=Tue" alt="GitHub Streak" />
   </a>
 </div>
 
